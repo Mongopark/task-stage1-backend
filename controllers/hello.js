@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 exports.greet = async (req, res) => {
-  const visitor = req.query.visitor_name || "Guest";
+  const visitor = req.query.name || "Guest";
   const clientIp = req.ip;
   console.log({ ip: clientIp });
 
