@@ -14,5 +14,6 @@ npm install -g ts-node
 
 # serve at localhost:3000
 npm run start
+or
 npm start
 ```
